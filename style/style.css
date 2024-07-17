@@ -95,21 +95,46 @@ header {
 
 /* main-part-start  */
 .popular-collection-container {
-  border: 3px solid black;
+  padding: 50px 0;
 }
-
+.collection-tittle {
+  margin-bottom: 50px;
+  text-align: center;
+}
 .popular-collection-box {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-content: space-between;
-  gap: 20px;
-  border: 2px solid tomato;
+  gap: 40px;
 }
 .collection-box {
-  width: 300px;
-  height: 400px;
-  border: 2px solid black;
+  margin: 0 auto;
+  width: 350px;
+  height: 450px;
+  padding: 10px;
+  box-shadow: 0 4px 10px 0;
+  border-radius: 8px;
 }
 .collection-box img {
   width: 100%;
+}
+.collection-box h4 {
+  color: var(--primary-color);
+  font-size: var(--font2-size);
+}
+.collection-box h6 {
+  color: var(--primary-color);
+  font-size: var(--font3-size);
+  margin: 5px 0;
+}
+.star {
+  color: gold;
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  font-weight: 600;
+}
+.collection-box p {
+  width: 250px;
+  color: var(--secondary-color);
+  font-size: var(--font4-size);
 }

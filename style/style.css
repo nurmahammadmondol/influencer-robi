@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-medium-font {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  /* border: 5px solid black; */
+}
+section {
+  margin-top: 100px;
+}
+/* All-Color  */
+:root {
+  --primary-color: #3a3a3a;
+  --secondary-color: #787885;
+  --font-size: 28px;
+  --font2-size: 24px;
+  --font3-size: 16px;
+  --font4-size: 14px;
+}
+.btn {
+  padding: 10px 30px;
+  font-size: var(--font3-size);
+  background-color: #e02c6d;
+  border: none;
+  border-radius: 20px;
+}
+.btn a {
+  color: white;
+  text-decoration: none;
+}
+/* Header-section-start */
+header {
+  margin: 0 80px;
+}
+.navber {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  text-align: center;
+}
+.manu {
+  display: flex;
+  list-style: none;
+}
+.nav-tittle {
+  color: var(--primary-color);
+  font-size: var(--font2-size);
+}
+.manu a {
+  color: var(--primary-color);
+  font-size: var(--font3-size);
+  margin-right: 30px;
+  text-decoration: none;
+}
+.header-container {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+
+.contain-tittle p {
+  width: 700px;
+  margin: 30px 0;
+  color: var(--secondary-color);
+  font-size: var(--font4-size);
+}
+
+.camera {
+  background-color: #f7f1fa;
+  border-radius: 50%;
+}
+/* Header-section-end */
+/* main-part-start  */
+
+/* section-one */
+.sponcer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  border-top: 0.1px solid #eeeeee;
+  border-bottom: 0.1px solid #eeeeee;
+}
+
+/* main-part-start  */
+.popular-collection-container {
+  border: 3px solid black;
+}
+
+.popular-collection-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  gap: 20px;
+  border: 2px solid tomato;
+}
+.collection-box {
+  width: 300px;
+  height: 400px;
+  border: 2px solid black;
+}
+.collection-box img {
+  width: 100%;
+}
